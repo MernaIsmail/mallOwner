@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.merna.mallowner.ui.addShop">
+
+    <!--<item-->
+        <!--android:id="@+id/action_cancel"-->
+        <!--android:icon="@drawable/close"-->
+        <!--android:orderInCategory="1"-->
+        <!--android:title="cancel" />-->
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/done"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:title="done" />
+
+
+</menu>

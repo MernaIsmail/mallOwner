@@ -1,0 +1,30 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#5d9ea1</item>
+        <item name="colorPrimaryDark">#4a778f</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#5d9ea1</item>
+        <item name="colorPrimaryDark">#4a778f</item>
+        <!--<item name="android:windowBackground">@drawable/bg</item>-->
+        <!--<item name="colorAccent">#FFFFFF</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="android:textColorLink">#ff398622</item>-->
+
+    </style>
+
+    <style name="HintText">
+        <item name="android:textSize">0dp</item>
+    </style>
+
+</resources>

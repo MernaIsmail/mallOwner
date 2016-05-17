@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.merna.mallowner" >
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MallApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Login.LoginActivity"
+            android:label="Mall"
+            android:noHistory="true"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.addShop"
+            android:label="@string/title_activity_add_shop"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ui.shopDetails"
+            android:label="@string/title_activity_shop_details"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <meta-data android:name="CLOUDINARY_URL" android:value="cloudinary://959113829349873:3HLEZodVmn0OJjBtCXaMp0_98eg@shopxfx"/>
+    </application>
+
+</manifest>
